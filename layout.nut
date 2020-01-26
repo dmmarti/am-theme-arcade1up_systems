@@ -3,7 +3,7 @@
 
 class UserConfig {
 </ label="--------  Main theme layout  --------", help="Show or hide additional images", order=1 /> uct1="select below";
-   </ label="Select wheel style", help="Select wheel style", options="gamewheel,listbox", order=4 /> enable_list_type="gamewheel";
+   </ label="Select wheel style", help="Select wheel style", options="gamewheel,listbox", order=4 /> enable_list_type="listbox";
    </ label="Select spinwheel art", help="The artwork to spin", options="wheel", order=5 /> orbit_art="wheel";
    </ label="Wheel transition time", help="Time in milliseconds for wheel spin.", order=6 /> transition_ms="25";  
    </ label="Wheel fade time", help="Time in milliseconds to fade the wheel.", options="Off,2500,5000,7500,10000", order=7 /> wheel_fade_ms="5000"; 
