@@ -63,8 +63,8 @@ w_art.alpha=255;
 
 if ( my_config["enable_list_type"] == "listbox" )
 {
-local listbox = fe.add_listbox( flx*0.012, fly*0.25, flw*0.48, flh*0.6 );
-listbox.rows = 20;
+local listbox = fe.add_listbox( flx*0.012, fly*0.24, flw*0.48, flh*0.6 );
+listbox.rows = 21;
 listbox.charsize = 25;
 listbox.set_rgb( 211, 211, 211 );
 listbox.bg_alpha = 0;
