@@ -89,7 +89,7 @@ local wheel_x = [ flx*0.11, flx*0.11, flx*0.11, flx*0.11, flx*0.11, flx*0.08, fl
 local wheel_y = [ -fly*1.0, fly*0.0, fly*0.115, fly*0.155, fly*0.28, fly*0.365, fly*0.47, fly*0.55, fly*0.64, fly*0.75, fly*0.81, fly*1.0, ];
 local wheel_w = [ flw*0.2, flw*0.2, flw*0.2, flw*0.2, flw*0.2, flw*0.275, flw*0.2, flw*0.2, flw*0.2, flw*0.2, flw*0.2, flw*0.2, ];
 local wheel_h = [  flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2, flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2,  flh*0.2, ];
-local wheel_a = [  0,  100,  0,  150,  200,  255, 0,  200,  150,  0,  100,  0, ];
+local wheel_a = [  0,  200,  0,  200,  200,  255, 0,  200,  200,  0,  200,  0, ];
 local wheel_r = [  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ];
 local num_arts = 7;
 
