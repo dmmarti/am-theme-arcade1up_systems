@@ -70,10 +70,9 @@ listbox.set_rgb( 211, 211, 211 );
 listbox.bg_alpha = 0;
 listbox.align = Align.Left;
 listbox.selbg_alpha = 0;
-listbox.sel_red = 71;
-listbox.sel_green = 121;
-listbox.sel_blue = 210;
-//listbox.font = "moonhouse.ttf";
+listbox.sel_red = 255;
+listbox.sel_green = 0;
+listbox.sel_blue = 0;
 
 local g_art = fe.add_artwork("wheel", flx*0.115, fly*0.0125, flw*0.175, flh*0.175 );
 g_art.preserve_aspect_ratio=true;
