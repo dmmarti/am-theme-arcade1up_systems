@@ -68,11 +68,12 @@ listbox.rows = 21;
 listbox.charsize = 25;
 listbox.set_rgb( 211, 211, 211 );
 listbox.bg_alpha = 0;
-listbox.align = Align.Left;
+listbox.align = Align.Centre;
 listbox.selbg_alpha = 0;
 listbox.sel_red = 255;
 listbox.sel_green = 0;
 listbox.sel_blue = 0;
+//listbox.font = "moonhouse.ttf";
 
 local g_art = fe.add_artwork("wheel", flx*0.115, fly*0.0125, flw*0.175, flh*0.175 );
 g_art.preserve_aspect_ratio=true;
@@ -180,13 +181,13 @@ textt.rotation = 0;
 textt.word_wrap = false;
 
 //Year text info
-local texty = fe.add_text("[Year]", flx*0.525, fly*0.29, flw*0.5, flh*0.0275 );
+local texty = fe.add_text("Year: [Year]", flx*0.525, fly*0.29, flw*0.5, flh*0.0275 );
 texty.set_rgb( 255, 255, 255 );
 //texty.style = Style.Bold;
 texty.align = Align.Left;
 
 //Emulator text info
-local textemu = fe.add_text( "[Emulator]", flx*0.525, fly*0.34, flw*0.5, flh*0.0275  );
+local textemu = fe.add_text( "System: [Emulator]", flx*0.525, fly*0.34, flw*0.5, flh*0.0275  );
 textemu.set_rgb( 225, 255, 255 );
 //textemu.style = Style.Bold;
 textemu.align = Align.Left;
